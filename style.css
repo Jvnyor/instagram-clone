@@ -17,6 +17,102 @@ body {
     justify-content: center;
 }
 
+.inativo{
+    display: none;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+}
+
+.ativo {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ativo input, button {
+    width: 267px;
+    margin-bottom: 8px;
+    padding: 8px 0;
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1.5px;
+}
+
+.ativo input {
+    font-size: 12px;
+    outline: none;
+    background: #FAFAFA;
+    text-indent: 8px;
+}
+
+.facebook {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.senha {
+    font-size: 13px;
+}
+
+.ativo button {
+    margin-top: 6px;
+    background: #0095f6;
+    color: white;
+    border: none;
+    padding: 6px 0;
+    border-radius: 3.5px;
+    cursor: pointer;
+}
+
+.or {
+    color: #8E8E8E;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.or::before {
+    content: '';
+    position: absolute;
+    width: 105px;
+    height: 1px;
+    background: #DBDBDB;
+    display: inline-block;
+    margin-left: -120px;
+    margin-top: 5px;
+}
+
+.alter-color {
+    color: #000;
+}
+
+.line {
+    display: flex;
+}
+
+.margin-top {
+    margin-top: 5px;
+}
+
+.or::after {
+    content: '';
+    position: absolute;
+    width: 105px;
+    height: 1px;
+    background: #DBDBDB;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.ativo a {
+    color: #385185;
+}
+
 .instagram-wrapper {
     display: flex;
     align-items: center;
@@ -65,6 +161,7 @@ body {
 }
 
 .profile-photo {
+    margin: 10px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,6 +183,7 @@ body {
 .instagram-logout {
     color: #0095f6;
     margin-top: 1rem;
+    margin-bottom: 20px;
 }
 
 .not-account {
@@ -136,6 +234,12 @@ body {
 @media (max-width: 1024px) {
     .instagram-wrapper {
         width: 90%;
+    }
+}
+
+@media (max-width: 700px) {
+    .ativo input, button {
+        display: block;
     }
 }
 
