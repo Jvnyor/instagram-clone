@@ -17,14 +17,14 @@ body {
     justify-content: center;
 }
 
-.inativo{
+.inactive {
     display: none;
     margin: 0;
     padding: 0;
     visibility: hidden;
 }
 
-.ativo {
+.login-form {
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -33,7 +33,7 @@ body {
     flex-direction: column;
 }
 
-.ativo input, button {
+.login-form input, button {
     width: 267px;
     margin-bottom: 8px;
     padding: 8px 0;
@@ -42,7 +42,7 @@ body {
     border-width: 1.5px;
 }
 
-.ativo input {
+.login-form input {
     font-size: 12px;
     outline: none;
     background: #FAFAFA;
@@ -55,11 +55,11 @@ body {
     margin-bottom: 15px;
 }
 
-.senha {
+.password {
     font-size: 13px;
 }
 
-.ativo button {
+.login-form button {
     margin-top: 6px;
     background: #0095f6;
     color: white;
@@ -109,7 +109,7 @@ body {
     margin-top: 5px;
 }
 
-.ativo a {
+.login-form a {
     color: #385185;
 }
 
@@ -238,7 +238,7 @@ body {
 }
 
 @media (max-width: 700px) {
-    .ativo input, button {
+    .login-form input, button {
         display: block;
     }
 }
