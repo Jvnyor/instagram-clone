@@ -1,13 +1,8 @@
-## Instagram Clone
+## Instagram clone
 
 Neste repositório criei uma cópia da página de login do instagram desktop.
 
-O site também possui responsividade.
+[Instagram clone](https://jvnyor.github.io/instagram-clone/)
 
-Link do projeto: https://jvnyor.github.io/instagram-clone/
-
-Clicando em remover a conta, se vai para a segunda página, onde simula a página oficial.
-
-![Simulando página quando tem uma conta do Facebook logada que tenha cadastro no Instagram](https://i.imgur.com/OinR91s.png)
-
-![Simulando quando se clica remover conta, e vai para a área de login com email e senha](https://i.imgur.com/4xDMjoK.png)
+## Tecnologias
+- HTML5, CSS3 e JavaScript;
